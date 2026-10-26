@@ -1,0 +1,15 @@
+gitignore
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+
+# Ignore dataset images
+train/
+test/
+
+# Ignore large trained models
+models/*.keras
+models/*.joblib
